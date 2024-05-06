@@ -1,0 +1,13 @@
+
+				SymbolTable
+
+		Token				Type		Line Number				Scope		Function Number
+
+                main                           INT                             1                        GLOBAL	0	1
+                   a                           INT                           3 4                       NESTING	1	1
+                   b                           INT                             3                       NESTING	1	1
+                   a                                                           7                       NESTING	2	1
+                   a                                                       10 11                       NESTING	1	2
+                   a                                                       13 14                       NESTING	2	2
+                   b                                                       15 16                       NESTING	2	2
+                   b                                                       18 19                       NESTING	3	2

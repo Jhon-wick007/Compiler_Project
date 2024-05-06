@@ -1,0 +1,14 @@
+nothing display(integer x)
+{
+        show(x);
+ }      
+integer main()
+{
+	integer a = 5, b = 3;
+	integer z=a*6+b-2;
+	show(z);
+	//floater x=3.0;
+	//integer y=x*2;
+	show(a);
+	display(z);
+}
